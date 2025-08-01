@@ -1,0 +1,60 @@
+# --------------------------------
+# Embedding Configuration 
+# --------------------------------
+embedding:
+  # Type of the embeddings Options: openai
+  type: openai
+  model: text-embedding-ada-002
+
+
+# --------------------------------
+# Vector Store Configuration 
+# --------------------------------
+
+vectorstore:
+  # Type of the vectorstore Options: pgvector
+  type: pgvector
+
+  # Connection String 
+  # - For pgvector: "postgresql://user:password@host:port/db"
+  connection_string: postgresql+psycopg://postgres:password@localhost:5432/OMRAN_SAMPLE
+  # Name of the collection/table/index used to store embeddings
+  collection_name: Operation Unit
+# --------------------------------
+# Retriever Configuration
+# --------------------------------
+retriever:
+  # Type of Retriever Options: multi-query,vector
+  type: multi-query
+  # top_k: top relevant documents
+  top_k: 1
+
+# --------------------------------
+# LLMConfiguration
+# --------------------------------
+llm:
+  # Framework Options: openai, ollama
+  framework: ollama
+  # LLM Options: gpt-4o, llama3
+  type: llama3
+  # to control the randomness of the LLM
+  temperature: 0.5
+
+# --------------------------------
+# Chains
+# --------------------------------
+
+chains:
+  # Chains Options: conversational
+  type: conversational
+
+# --------------------------------
+# Memory
+# --------------------------------
+memory:
+  # Memory Options: postgres-memory.
+  type: postgres-memory
+  # Postgres Connectoion.
+  connection_string: postgresql://postgres:password@localhost/chat_history
+  # Number of Chats to hold.
+  window_size: 3

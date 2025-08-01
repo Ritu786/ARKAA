@@ -1,0 +1,31 @@
+loader:
+  default_pdf: unstruct-pdf       
+  default_docx: unstruct-docx
+
+  pypdf:
+    mode: "page"
+
+  unstruct-pdf:
+    strategy: "hi_res"
+    model: "yolox"
+    chunk_max_char: 4000
+    chunk_overlap: 104
+  
+  unstruct-docx:
+    strategy: "hi_res"
+    model: "yolox"
+    chunk_max_char: 500
+    chunk_overlap: 104
+
+translator:
+  type: "microsoft"            # Options: google, argos, microsoft, openai
+  source_lang: "ar"
+  target_lang: "en"
+
+embeddings:
+  type: "openai"
+  
+vectorstore:
+  type: 'pgvector'          # Options: pgvector
+  connection_string: "postgresql+psycopg://postgres:password@localhost:5432/TASI"
+  use_jsonb: true

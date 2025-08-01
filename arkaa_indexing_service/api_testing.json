@@ -1,0 +1,73 @@
+{
+  "file_paths": [
+    {
+      "id": 1,
+      "path": "./data/Omran_KB/Operation Unit/Administration/CR  02.2025/Aasaal Hospitality SPC.pdf"
+    },
+    {
+      "id": 2,
+      "path": "./data/Omran_KB/Operation Unit/Administration/CR  02.2025/AL ASHKHARA GUEST HOUSE LLC.pdf"
+    }
+  ],
+  "collection_name": "Testing-Queuing-05",
+  "base_path": ""
+}
+
+# Cloud URL - Azure Blob
+{
+  "file_urls": [
+    {
+      "id": 1,
+      "url": "https://arkaadev.blob.core.windows.net/arkaa-storage/knowledge-hub/Smallpdf%20(1).pdf?sv=2025-01-05&se=2025-07-19T06%3A48%3A02Z&sr=b&sp=r&sig=r23BPXB2qErhy1xv%2Fn3W8ylLpK2CjcSiYil%2FLmGGhNs%3D"
+    }
+  ],
+  "collection_name": "Azure-testing-03",
+  "base_path": ""
+}
+
+{
+  "file_urls": [
+    {
+      "id": 1,
+      "url": "https://arkaadev.blob.core.windows.net/arkaa-storage/tenant-1/Administration/CR%20%2002.2025/Salalah%20Villas%20Company%20SPC.pdf?sv=2025-01-05&se=2025-07-20T08%3A24%3A37Z&sr=b&sp=r&sig=x31CzBrRNEHPbwSA7wkSqBeXPma7mhL0BP1GIORJshc%3D"
+    },
+    {
+      "id": 2,
+      "url": "https://arkaadev.blob.core.windows.net/arkaa-storage/tenant-1/Administration/CR%20%2002.2025/OH.pdf?sv=2025-01-05&se=2025-07-20T08%3A24%3A37Z&sr=b&sp=r&sig=8o3Vb9CMzSBVbUWY7qc8deyr5pUN1t2UMG34vUr0KSY%3D"
+    },
+    {
+      "id": 3,
+      "url": "https://arkaadev.blob.core.windows.net/arkaa-storage/tenant-1/Administration/CR%20%2002.2025/Yiti%20Tourism%20Development%20Company%20LLC.pdf?sv=2025-01-05&se=2025-07-20T08%3A24%3A37Z&sr=b&sp=r&sig=jf8sYKcuJSbbbfkXa8o9LWG3hrYkEpGLj2F9u7yrR70%3D" 
+    },
+    {
+      "id": 4,
+      "url": "https://arkaadev.blob.core.windows.net/arkaa-storage/tenant-1/Administration/CR%20%2002.2025/Destination%20Management%20Company%20LLC.pdf?sv=2025-01-05&se=2025-07-20T08%3A24%3A37Z&sr=b&sp=r&sig=1f7VF6%2FEeLp7hFtHwZEBo2t6p7%2FL5cjeb4tHkbbtxtM%3D"
+    },
+    {
+      "id": 5,
+      "url": "https://arkaadev.blob.core.windows.net/arkaa-storage/tenant-1/Administration/CR%20%2002.2025/Muscat%20Beach%20Property%20Management%20LLC.pdf?sv=2025-01-05&se=2025-07-20T08%3A24%3A37Z&sr=b&sp=r&sig=QODGyEkoLwmMHQp9A82YHuTrbARuEBdOiQ1QFBu%2FfXg%3D"
+    },
+    {
+      "id": 6,
+      "url": "https://arkaadev.blob.core.windows.net/arkaa-storage/tenant-1/Administration/CR%20%2002.2025/Al%20Batinah%20Hotels%20Company%20SAOC.pdf?sv=2025-01-05&se=2025-07-20T08%3A24%3A37Z&sr=b&sp=r&sig=bLIgr1rHN5AXk2PbUKeHDX1Ej9OYzdOkcBsiDDmAiQw%3D"
+    },
+    {
+      "id": 7,
+      "url": "https://arkaadev.blob.core.windows.net/arkaa-storage/tenant-1/Administration/CR%20%2002.2025/Musanah%20Resort%20Management%20Company%20LLC.pdf?sv=2025-01-05&se=2025-07-20T08%3A24%3A37Z&sr=b&sp=r&sig=ODGVGsXiJik1mMYOX1Z1APWZJ2YshdRi1Rml6w3GnFQ%3D"
+    },
+    {
+      "id": 8,
+      "url": "https://arkaadev.blob.core.windows.net/arkaa-storage/tenant-1/Administration/CR%20%2002.2025/National%20Travel%20Operator%20LLC.pdf?sv=2025-01-05&se=2025-07-20T08%3A24%3A37Z&sr=b&sp=r&sig=qjOUtaPZ0XFkRjafY%2BJYf7UU0QSTEemBNEkRghj0VIo%3D"
+    },
+    {
+      "id": 9,
+      "url": "https://arkaadev.blob.core.windows.net/arkaa-storage/tenant-1/Administration/CR%20%2002.2025/Duqm%20management%20company%20LLC.pdf?sv=2025-01-05&se=2025-07-20T08%3A24%3A37Z&sr=b&sp=r&sig=kgOgVoGJR7rdky%2FytxlC%2FZnqx%2BwgH%2FztDLcdb6khlTs%3D"
+    },
+    {
+      "id": 10,
+      "url": "https://arkaadev.blob.core.windows.net/arkaa-storage/tenant-1/Administration/CR%20%2002.2025/Khasab%20Hotel%20and%20Resort%20Management%20Company%20LLC.pdf?sv=2025-01-05&se=2025-07-20T08%3A24%3A37Z&sr=b&sp=r&sig=JtfsAgCRnLlZL7eP04nALKVPiDWsmGuLBMolOJmxM%2FU%3D"
+    }
+  ],
+  "collection_name": "Azure-Testing-04",
+  "base_path": ""
+}
